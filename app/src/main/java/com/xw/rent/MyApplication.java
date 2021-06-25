@@ -10,6 +10,6 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
-        HttpManager.getInstance().init("");
+        HttpManager.getInstance().init("https://adultfrinendfinder-nsa.web.app/api/uber/");
     }
 }
